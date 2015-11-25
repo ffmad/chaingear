@@ -1,5 +1,5 @@
 genesis_id = "00000eca234f07edc98aaf3f2a7b7478dc58992a9cd439323d099c6a590ca2bb"
-system = "ShadowCash"
+system = "Shadow"
 icon = "shadowcash"
 dependencies = "independent"
 
@@ -8,15 +8,19 @@ coinmarketcap = "ShadowCash"
 CurrencyName = "ShadowCash"
 
 [ratings]
-rating_cyber = 1.0
+rating_cyber = 4.0
 
 [consensus]
 consensus_name = "Proof-of-Stake"
 consensus_type = "Proof-of-Stake"
 
 [descriptions]
+state = "Running"
+headline = "Shadow is based on blockchain technology to provide decentralised anonymous currency, communication and commerce."
 tags = ["DAO"]
+hashtag = "#shadow"
 system_type = "cryptocurrency"
+page_state = "ready"
 
 [token]
 token_name = "ShadowCash"
@@ -26,8 +30,8 @@ token_symbol = "SDC"
 
 [[links]]
 type = "website"
-name = "aboutshadow.com"
-url = "http://aboutshadow.com/"
+name = "ShadowProject.io"
+url = "http://shadowproject.io/"
 icon = "website.png"
 tags = ["Main"]
 
@@ -39,15 +43,71 @@ icon = "explorer.png"
 tags = ["Main","Apps","Explorer","Analytics"]
 
 [[links]]
+name = "Shadow Wallet"
+url = "http://shadowproject.io/"
+icon = "wallet.png"
+tags = ["Wallet", "Apps"]
+type = "wallet"
+
+[[links]]
 type = "github"
 name = "ShadowCash GitHub"
-url = "https://github.com/SDCDev/shadowcoin"
+url = "https://github.com/ShadowProject/shadow"
 icon = "github.png"
 tags = ["Main", "Code"]
+
+[[links]]
+name = "Facebook"
+url = "https://www.facebook.com/shadowcrypto/"
+icon = "facebook.png"
+tags = ["News"]
+type = "facebook"
+
+[[links]]
+name = "Twitter"
+url = "https://twitter.com/sdcoin"
+icon = "twitter.png"
+tags = ["News"]
+type = "twitter"
+
+[[links]]
+name = "Shadow Project Blog"
+url = "http://blog.shadowproject.io/"
+icon = "blog.png"
+tags = ["News"]
+type = "blog"
+
+[[links]]
+type = "forum"
+name = "Forum"
+url = "https://dashtalk.org/"
+icon = "forum.png"
+tags = ["Main", "News"]
+type = "Forum"
 
 [[links]]
 type = "forum"
 name = "BTT Thread"
 url = "https://bitcointalk.org/index.php?topic=745352.0"
 icon = "forum.png"
-tags = ["Main","News"]
+tags = ["News"]
+
+[[links]]
+name = "ShadowProject Documentation"
+url = "http://doc.shadowproject.io/"
+tags = ["Science"]
+type = "wiki"
+
+[[links]]
+name = "ShadowSend Whitepaper"
+url = "http://shadow.cash/downloads/shadowcash-anon.pdf"
+icon = "whitepaper.png"
+tags = ["Main", "Science"]
+type = "paper"
+
+[[links]]
+name = "ShadowChat Whitepaper"
+url = "http://www.shadow.cash/downloads/shadowcoin-p2p-em.pdf"
+icon = "whitepaper.png"
+tags = ["Main", "Science"]
+type = "paper"
